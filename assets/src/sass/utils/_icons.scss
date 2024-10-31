@@ -1,0 +1,8 @@
+.prisjakt-feed-icon {
+  font-size: 30px;
+
+  &.dashicons-no-alt {
+    color: $delete_color;
+    cursor: pointer;
+  }
+}

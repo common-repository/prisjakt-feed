@@ -1,0 +1,52 @@
+$width: 40px;
+$height: 20px;
+
+input.prisjakt-switch {
+  position: relative;
+  width: $width;
+  height: $height;
+  -webkit-appearance: none;
+  background: #ccc;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: background 300ms linear;
+  margin: 0;
+
+  &[readonly] {
+    opacity: .7;
+    pointer-events: none;
+  }
+
+  &,
+  &:focus,
+  &:active {
+    border: none;
+    box-shadow: none;
+  }
+
+  &:checked::before,
+  &::before {
+    position: absolute;
+    content: "";
+    width: calc((#{$width} / 2) - 6px);
+    height: calc((#{$width} / 2) - 6px);
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: left 300ms linear;
+    margin: 0;
+  }
+
+  &:checked {
+    background: $primary_color;
+
+    &::before {
+      left: calc(#{$width} / 2);
+      background-color: #fff;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "ageno-packages/prisjakt-feed",
+  "description": "Lib package for Prisjakt Feed Generation.",
+  "version": "0.0.2",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "license": "MIT",
+  "homepage": "https://prisjakt.nu",
+  "autoload": {
+    "psr-4": {
+      "Ageno\\Prisjakt\\": ""
+    }
+  },
+  "require": {
+    "php": ">=7.1"
+  }
+}

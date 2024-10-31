@@ -1,0 +1,59 @@
+table.prisjakt-feed-table {
+
+  @for $i from 1 through 12 {
+    .level-#{$i} {
+      padding-left: calc(#{$i} * 8px);
+    }
+  }
+
+  td {
+    vertical-align: middle;
+  }
+
+  .table-actions {
+    background: #fff;
+
+    td {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+
+  .hidden-rows {
+    display: none;
+  }
+
+  select,
+  input[type="text"] {
+    width: 100%;
+  }
+
+  #prisjakt_feed_field_mapping & {
+
+    thead,
+    tfoot {
+      td.index-5 {
+        color: $delete_color;
+      }
+    }
+
+    td.index-6,
+    tbody tr td:last-child {
+      display: none;
+    }
+
+    .table-actions td {
+      display: table-cell !important;
+    }
+  }
+
+  #prisjakt_feed_filters & {
+
+    thead,
+    tfoot {
+      td:last-child {
+        color: $delete_color;
+      }
+    }
+  }
+}

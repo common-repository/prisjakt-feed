@@ -1,0 +1,933 @@
+# Copyright (C) 2023 prisjakt-feed
+# This file is distributed under the same license as the prisjakt-feed package.
+msgid ""
+msgstr ""
+"Project-Id-Version: prisjakt-feed\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Prisjakt <support@prisjakt.nu>\n"
+"Last-Translator: Prisjakt <support@prisjakt.nu>\n"
+"POT-Creation-Date: 2023-03-06 06:07+0000\n"
+"Report-Msgid-Bugs-To: prisjakt.nu\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../prisjakt-feed.php:252
+msgid "Prisjakt Feed is unable to find the Bootstrap class."
+msgstr ""
+
+#: ../prisjakt-feed.php:263
+msgid "Prisjakt Feed is unable to run the Bootstrap class."
+msgstr ""
+
+#. translators: %s: php class namespace
+#: ../src/Bootstrap.php:174
+msgid "Could not load class \"%s\". The \"init\" method is probably missing or try a `composer dumpautoload -o` to refresh the autoloader."
+msgstr ""
+
+#: ../src/Bootstrap.php:180
+msgid "Plugin initialize failed"
+msgstr ""
+
+#: ../src/App/Backend/Plugin.php:65
+msgid "View settings"
+msgstr ""
+
+#: ../src/App/Backend/Plugin.php:65, ../src/App/Backend/Core/Settings/Menu.php:82
+msgid "Settings"
+msgstr ""
+
+#. translators: %s: request function
+#: ../src/Common/Traits/Requester.php:54
+msgid "Unknown request type: %s"
+msgstr ""
+
+#: ../src/Common/Traits/Requester.php:57
+msgid "Classes are not being correctly requested"
+msgstr ""
+
+#: ../src/Common/Utils/Errors.php:51
+msgid "&rsaquo; Fatal Error"
+msgstr ""
+
+#. translators: %s: file path
+#: ../src/Common/Utils/Errors.php:62, ../src/Common/Utils/Errors.php:100
+msgid "Error source: %s"
+msgstr ""
+
+#: ../src/Common/Utils/Errors.php:89
+msgid "&rsaquo; Plugin Disabled"
+msgstr ""
+
+#: ../src/App/Backend/Core/Dashboard.php:56, ../src/App/Backend/Core/Dashboard.php:57
+msgid "Prisjakt"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:39
+msgid "Id"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:45
+msgid "Availability"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:51, ../src/App/DataStorage/Feed/FiltersData.php:83
+msgid "Condition"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:57
+msgid "Link"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:63
+msgid "Price"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:69
+msgid "Title"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:75
+msgid "Additional fees"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:81
+msgid "Adult"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:87
+msgid "Affiliate link"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:93, ../src/App/DataStorage/Settings/ExtraFieldsData.php:218, ../src/App/DataStorage/Settings/ExtraFieldsData.php:219
+msgid "Energy efficiency class"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:99
+msgid "Shipping height"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:105
+msgid "Shipping length"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:111
+msgid "Shipping weight"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:117
+msgid "Shipping width"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:123, ../src/App/DataStorage/Settings/ExtraFieldsData.php:300, ../src/App/DataStorage/Settings/ExtraFieldsData.php:301
+msgid "Size"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:129
+msgid "Mpn"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:135, ../src/App/DataStorage/Settings/ExtraFieldsData.php:293, ../src/App/DataStorage/Settings/ExtraFieldsData.php:294
+msgid "Pattern"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:141, ../src/App/DataStorage/Settings/ExtraFieldsData.php:268, ../src/App/DataStorage/Settings/ExtraFieldsData.php:269
+msgid "Material"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:147
+msgid "Prisjakt id"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:153
+msgid "Gtin"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:159
+msgid "Product detail"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:166
+msgid "Age group"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:172, ../src/App/DataStorage/Settings/ExtraFieldsData.php:235, ../src/App/DataStorage/Settings/ExtraFieldsData.php:236
+msgid "Gender"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:178
+msgid "Promotion"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:184, ../src/App/DataStorage/Settings/ExtraFieldsData.php:175, ../src/App/DataStorage/Settings/ExtraFieldsData.php:176
+msgid "Color"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:190
+msgid "Description"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:196, ../src/App/DataStorage/Settings/ExtraFieldsData.php:249, ../src/App/DataStorage/Settings/ExtraFieldsData.php:250
+msgid "Is bundle"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:208, ../src/App/DataStorage/Settings/ExtraFieldsData.php:153
+msgid "Brand"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:214
+msgid "Item group id"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:232, ../src/App/DataStorage/Settings/ExtraFieldsData.php:140
+msgid "Size system"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:238
+msgid "Sale price effective date"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:244
+msgid "Sale price"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:250
+msgid "Shipping"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:256
+msgid "Availability date"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:262
+msgid "Shipping label"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:268
+msgid "Promotion id"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:276
+msgid "Member price"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:334, ../src/App/DataStorage/Attributes/Attributes.php:440
+msgid "General attributes"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:386, ../src/App/DataStorage/Attributes/Attributes.php:492
+msgid "Price attributes"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:483
+msgid "Images attributes"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:504
+msgid "Shipping attributes"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:517
+msgid "Extra fields"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:523
+msgid "Product Attributes"
+msgstr ""
+
+#: ../src/App/DataStorage/Attributes/Attributes.php:535
+msgid "Additional fields"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/CategoryMappingData.php:42
+msgid "Assign your categories to the Prisjakt category, if a category is not assigned, its default value will be sent."
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/CategoryMappingData.php:57
+msgid "Your Category"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/CategoryMappingData.php:60
+msgid "Google shopping category"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FieldMappingData.php:59
+msgid ""
+"For the selected channel the attributes shown below are mandatory,\n"
+"					 please map them to your product attributes. We've already pre-filled a lot of mappings so all\n"
+"					  you have to do is check those and map the ones that are left blank or add new ones by hitting\n"
+"					   the Add field mapping button. %s"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FieldMappingData.php:69
+msgid "Learn how to use static values"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FieldMappingData.php:82
+msgid "Prisjakt shopping attributes"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FieldMappingData.php:85
+msgid "Prefix"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FieldMappingData.php:88, ../src/App/DataStorage/Feed/FiltersData.php:86
+msgid "Value"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FieldMappingData.php:91
+msgid "Suffix"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FieldMappingData.php:94, ../src/App/DataStorage/Feed/FiltersData.php:89
+msgid "Delete"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FieldMappingData.php:97
+msgid "Field type"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FiltersData.php:55
+msgid ""
+"Create filter so exactly the right products end up in your product feed. These filters are only \n"
+"					eligable for the current product feed you are configuring and will not be used for other feeds. %1$s\n"
+"					 or %2$s"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FiltersData.php:61
+msgid "Detailed information and filter examples"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FiltersData.php:66
+msgid "Create a product feed for just 1 category"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FiltersData.php:80
+msgid "If"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FiltersData.php:152
+msgid "contains"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FiltersData.php:153
+msgid "does not contain"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FiltersData.php:154
+msgid "is equal to"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FiltersData.php:155
+msgid "is not equal to"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FiltersData.php:156
+msgid "is greater than"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FiltersData.php:157
+msgid "is greater or equal to"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FiltersData.php:158
+msgid "is less than"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FiltersData.php:159
+msgid "is less or equal to"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FiltersData.php:160
+msgid "is empty"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FiltersData.php:161
+msgid "is not empty"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FiltersData.php:170
+msgid "Exclude"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/FiltersData.php:171
+msgid "Include only"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/GeneralSettingsData.php:48
+msgid "Name"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/GeneralSettingsData.php:80, ../src/App/Backend/Core/Feeds/Columns.php:79
+msgid "Refresh interval"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/GeneralSettingsData.php:109
+msgid "24h"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/GeneralSettingsData.php:110
+msgid "12h"
+msgstr ""
+
+#: ../src/App/DataStorage/Feed/GeneralSettingsData.php:111
+msgid "1h"
+msgstr ""
+
+#: ../src/App/DataStorage/Form/Messages.php:28
+msgid "Please fill in this field."
+msgstr ""
+
+#: ../src/App/DataStorage/Form/Messages.php:29
+msgid "Select an item from the list."
+msgstr ""
+
+#: ../src/App/DataStorage/Form/Messages.php:30
+msgid "Maximum text length"
+msgstr ""
+
+#: ../src/App/DataStorage/Form/Messages.php:31
+msgid "Minimum text length"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:71
+msgid "Attribute name"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:74, ../src/App/DataStorage/Settings/SettingsData.php:43
+msgid "Off / On"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:90, ../src/App/DataStorage/Settings/ExtraFieldsData.php:91
+msgid "Product condition"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:93
+msgid "Select the product condition."
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:96
+msgid "new"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:97
+msgid "refurbished"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:98
+msgid "used"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:99
+msgid "damaged"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:104, ../src/App/DataStorage/Settings/ExtraFieldsData.php:105
+msgid "GTIN"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:107
+msgid "Enter the product GTIN here."
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:111
+msgid "EAN"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:112
+msgid "European Article Number"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:114
+msgid "Enter the EAN here."
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:118
+msgid "MPN"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:119
+msgid "Manufacturer Product Number"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:121
+msgid "Enter the MPN here."
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:125, ../src/App/DataStorage/Settings/ExtraFieldsData.php:126
+msgid "UPC"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:128
+msgid "Enter the product UPC here."
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:132, ../src/App/DataStorage/Settings/ExtraFieldsData.php:133
+msgid "Optimized title"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:135
+msgid "Enter a optimized product title here."
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:142
+msgid "Select the product size system"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:147
+msgid "Prisjakt ID"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:149
+msgid "If the product has the URL https://www.prisjakt.nu/produkt.php?p=4858585 then the ID would be 4858585."
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:155
+msgid "Enter the product Brand here."
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:160, ../src/App/DataStorage/Settings/ExtraFieldsData.php:161
+msgid "Product age group"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:163
+msgid "Select the product age group."
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:166
+msgid "newborn"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:167
+msgid "infant"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:168
+msgid "toddler"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:169
+msgid "kids"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:170
+msgid "adult"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:178
+msgid "Enter the product Color here."
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:182, ../src/App/DataStorage/Settings/ExtraFieldsData.php:183
+msgid "Custom field 0"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:185
+msgid "Enter your custom field 0"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:189, ../src/App/DataStorage/Settings/ExtraFieldsData.php:190
+msgid "Custom field 1"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:192
+msgid "Enter your custom field 1"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:196, ../src/App/DataStorage/Settings/ExtraFieldsData.php:197
+msgid "Custom field 2"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:199
+msgid "Enter your custom field 2"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:203, ../src/App/DataStorage/Settings/ExtraFieldsData.php:204
+msgid "Custom field 3"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:206
+msgid "Enter your custom field 3"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:210, ../src/App/DataStorage/Settings/ExtraFieldsData.php:211
+msgid "Custom field 4"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:213
+msgid "Enter your custom field 4"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:221
+msgid "Select the energy efficiency class."
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:227, ../src/App/DataStorage/Settings/ExtraFieldsData.php:228
+msgid "Exclude from feeds"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:238
+msgid "Select the gender."
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:241
+msgid "female"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:242
+msgid "male"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:243
+msgid "unisex"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:252
+msgid "Select the is bundle value."
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:255
+msgid "yes"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:256
+msgid "no"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:261, ../src/App/DataStorage/Settings/ExtraFieldsData.php:262
+msgid "Is promotion"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:264
+msgid "Enter your promotion ID"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:271
+msgid "Enter the product Material here."
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:276, ../src/App/DataStorage/Settings/ExtraFieldsData.php:277
+msgid "Maximum energy efficiency class"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:279
+msgid "Select the maximum energy efficiency class."
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:285
+msgid "Minimum energy efficiency class"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:288
+msgid "Select the minimum energy efficiency class."
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:296
+msgid "Enter the product Pattern here."
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:303
+msgid "Enter the product Size here."
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:324
+msgid "A+++"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:325
+msgid "A++"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:326
+msgid "A+"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:327
+msgid "A"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:328
+msgid "B"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:329
+msgid "C"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:330
+msgid "D"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:331
+msgid "E"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:332
+msgid "F"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:333
+msgid "G"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:344
+msgid "AU"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:345
+msgid "BR"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:346
+msgid "CN"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:347
+msgid "DE"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:348
+msgid "EU"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:349
+msgid "FR"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:350
+msgid "IT"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:351
+msgid "JP"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:352
+msgid "MEX"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:353
+msgid "UK"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/ExtraFieldsData.php:354
+msgid "US"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/SettingsData.php:40
+msgid "Plugin settings"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/SettingsData.php:52
+msgid "Enable logging (Enable only on advice of our support-team)"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/SystemsCheckData.php:30
+msgid "System check"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/SystemsCheckData.php:33, ../src/App/Backend/Core/Feeds/Columns.php:80
+msgid "Status"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/SystemsCheckData.php:44
+msgid "WP-Cron"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/SystemsCheckData.php:45
+msgid "PHP-version sufficient"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/SystemsCheckData.php:46
+msgid "PHP max input vars"
+msgstr ""
+
+#: ../src/App/DataStorage/Settings/SystemsCheckData.php:47
+msgid "Product feed directory writable"
+msgstr ""
+
+#: ../src/App/Pages/Feed/CategoryMapping.php:46
+msgid "Category mapping"
+msgstr ""
+
+#: ../src/App/Pages/Feed/CategoryMapping.php:66, ../src/App/Pages/Feed/FieldMapping.php:92, ../src/App/Pages/Feed/Filters.php:60
+msgid "Back"
+msgstr ""
+
+#: ../src/App/Pages/Feed/CategoryMapping.php:77
+msgid "Generate Product Feed"
+msgstr ""
+
+#: ../src/App/Pages/Feed/FieldMapping.php:42
+msgid "Field mapping"
+msgstr ""
+
+#: ../src/App/Pages/Feed/FieldMapping.php:100, ../src/App/Pages/Feed/Filters.php:68, ../src/App/Pages/Feed/GeneralSettings.php:60
+msgid "Save & Continue"
+msgstr ""
+
+#: ../src/App/Pages/Feed/FieldMapping.php:121
+msgid "Add Field Mapping"
+msgstr ""
+
+#: ../src/App/Pages/Feed/FieldMapping.php:129
+msgid "Add Custom Field"
+msgstr ""
+
+#: ../src/App/Pages/Feed/Filters.php:40
+msgid "Feed Filters"
+msgstr ""
+
+#: ../src/App/Pages/Feed/Filters.php:89
+msgid "Add Filter"
+msgstr ""
+
+#: ../src/App/Pages/Feed/GeneralSettings.php:46
+msgid "General feed settings"
+msgstr ""
+
+#: ../src/App/Pages/Feed/GeneralSettings.php:84
+msgid "New feed"
+msgstr ""
+
+#: ../src/App/Pages/Settings/SystemsCheckPage.php:87, ../src/App/Pages/Settings/SystemsCheckPage.php:126
+msgid ""
+"<span class=\"correct-settings\">\n"
+"                            <span class=\"dashicons dashicons-yes\"></span>\n"
+"								%s\n"
+"							</span>"
+msgstr ""
+
+#: ../src/App/Pages/Settings/SystemsCheckPage.php:94
+msgid "Enabled"
+msgstr ""
+
+#: ../src/App/Pages/Settings/SystemsCheckPage.php:97
+msgid ""
+"<span class=\"bad-settings\">\n"
+"								%s\n"
+"							</span>"
+msgstr ""
+
+#: ../src/App/Pages/Settings/SystemsCheckPage.php:103
+msgid "Disabled (if you want to use automatic feed generation, please enable WP-Cron)"
+msgstr ""
+
+#: ../src/App/Pages/Settings/SystemsCheckPage.php:115
+msgid ""
+"<span class=\"bad-settings\">\n"
+"								Increase the value max_input_vars in php.ini file, suggested value is 5000 your value %s.\n"
+"							</span>"
+msgstr ""
+
+#: ../src/App/Pages/Settings/SystemsCheckPage.php:143
+msgid ""
+"<span class=\"bad-settings\">\n"
+"								To allow feed save, make directory <code>%s</code> writable.\n"
+"							</span>"
+msgstr ""
+
+#: ../src/App/Pages/Settings/SystemsCheckPage.php:154
+msgid ""
+"<span class=\"correct-settings\">\n"
+"                            <span class=\"dashicons dashicons-yes\"></span>\n"
+"								<code>%s</code>\n"
+"							</span>"
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/Actions.php:51
+msgid "Download feed"
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/Actions.php:52
+msgid "Refresh feed"
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/Actions.php:239
+msgid "Cant do this action!"
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/Actions.php:286
+msgid "Updated feed status to pending. Generation process is now scheduled."
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/Columns.php:77
+msgid "Active"
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/Columns.php:78
+msgid "Product feed name"
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/Columns.php:81
+msgid "Products"
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/Columns.php:82
+msgid "Progress"
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/Columns.php:83
+msgid "Generated At"
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/Columns.php:84
+msgid "Scheduled At"
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/Columns.php:85
+msgid "Date"
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/Menu.php:53, ../src/App/Backend/Core/Feeds/Menu.php:54
+msgid "All feeds"
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/Menu.php:63, ../src/App/Backend/Core/Feeds/Menu.php:64
+msgid "Add new feed"
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/Messages.php:49
+msgid "Feed saved."
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/Messages.php:50
+msgid "Feed updated."
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/PostType.php:80, ../src/App/Backend/Core/Feeds/PostType.php:82
+msgid "New %s"
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/PostType.php:81
+msgid "Add New %s"
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/PostType.php:83
+msgid "Edit %s"
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/PostType.php:84
+msgid "View %s"
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/PostType.php:85
+msgid "All %s"
+msgstr ""
+
+#: ../src/App/Backend/Core/Feeds/PostType.php:86
+msgid "Search %s"
+msgstr ""
+
+#: ../src/App/Backend/Core/Settings/Menu.php:81
+msgid "Prisjakt Feed Settings"
+msgstr ""
+
+#: ../src/Common/Utils/Form/Elements/Element.php:108
+msgid "Wrong type"
+msgstr ""

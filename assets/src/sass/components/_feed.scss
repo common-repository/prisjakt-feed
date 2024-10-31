@@ -1,0 +1,44 @@
+body {
+
+  &.prisjakt_feed_edit_feed {
+
+    .inside {
+      padding: 0;
+    }
+
+    .postbox {
+      background: transparent;
+      border: none;
+      box-shadow: none;
+
+      &-header {
+        pointer-events: none;
+        display: none;
+      }
+
+      &:not(.show-step) {
+        display: none;
+      }
+
+
+      /*
+       * Override sortable style
+       */
+
+      &.closed > .inside {
+        display: block;
+      }
+    }
+
+
+    #delete-action,
+    #minor-publishing-actions,
+    #misc-publishing-actions {
+      display: none;
+    }
+
+    #submit-section {
+      display: block !important;
+    }
+  }
+}

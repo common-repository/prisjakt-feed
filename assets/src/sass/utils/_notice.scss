@@ -1,0 +1,13 @@
+.prisjakt-feed-notice {
+  background: #fff;
+  border: 1px solid #c3c4c7;
+  margin: 10px 0;
+  padding: 1px 12px;
+  border-left-color: rgb(195, 196, 199);
+  border-left-width: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+
+  &-info {
+    border-left-color: #72aee6;
+  }
+}
